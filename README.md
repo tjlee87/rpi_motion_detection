@@ -24,5 +24,5 @@ This project demonstrates a lightweight motion detection system using the **Rasp
 - [Picamera2](https://github.com/raspberrypi/picamera2)
 - [OpenCV](https://github.com/opencv/opencv-python)
 
-Make sure to enable the camera interface on your Raspberry Pi (`raspi-config`) and install the required packages before running the project.
-
+Make sure to configure your Raspberry Pi (link below) and install the required packages before running the project.
+[Configuration instruction](https://docs.arducam.com/Raspberry-Pi-Camera/Native-camera/5MP-OV5647/#1-system-configuration)
