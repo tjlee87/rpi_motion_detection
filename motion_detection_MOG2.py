@@ -41,13 +41,12 @@ try:
         cv.imshow('FG Mask', dilation)
         
         # end the loop when Esc is pressed
-        k = cv.waitKey(30) & 0xff
+        k = cv.waitKey(10) & 0xff
         if k == 27:
             break
         # save a screenshot when Space is pressed
         elif k == 32:
             cv.imwrite(os.path.dirname(__file__) + "/frame.png", frame)
-#             cv.imwrite(os.path.dirname(__file__) + "/fg_mask.png", dilation)
     
 except Exception as e:
     print(e)
